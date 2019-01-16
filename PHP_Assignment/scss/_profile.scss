@@ -1,0 +1,56 @@
+// main: style.scss
+
+#profile {
+   height: 100vh;
+   vertical-align: middle;
+
+   .about {
+       color: #666;
+       display: block;
+       font-size: 20px;
+       margin: auto;
+   }
+
+   .scroll-content {
+       padding: 16px;
+       vertical-align: middle;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .headerProfileName {
+       color: #333;
+       margin: auto;
+   }
+
+   .logo {
+       color: #fff;
+       display: block;
+       width: 120px;
+   }
+
+   .name {
+       color: #333;
+       font-size: 14px;
+   }
+
+   .navbar {
+      background-color: #333;
+
+      .navbar-nav {
+          flex: 1;
+          justify-content: space-around;
+      }
+   }
+
+   .profilephoto {
+       display: block;
+       margin: auto;
+   }
+
+   .school {
+       color: #666;
+       display: block;
+       margin: auto;
+   }
+}

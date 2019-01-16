@@ -1,0 +1,40 @@
+// main: style.scss
+
+#form {
+   height: 100vh;
+   vertical-align: middle;
+
+   .card {
+       display: block;
+       margin: auto;
+       border: none;
+   }
+
+   .scroll-content {
+       padding: 16px;
+       vertical-align: middle;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .logo {
+       color: #fff;
+       display: block;
+       width: 120px;
+   }
+
+   .name {
+       color: #333;
+       font-size: 14px;
+   }
+
+   .navbar {
+      background-color: #333;
+
+      .navbar-nav {
+          flex: 1;
+          justify-content: space-around;
+      }
+   }
+
+}

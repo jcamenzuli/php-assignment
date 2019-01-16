@@ -1,0 +1,52 @@
+// main: style.scss
+
+#home {
+   height: 100vh;
+   vertical-align: middle;
+
+   .card {
+       display: block;
+       margin: auto;
+   }
+
+   .date {
+       color: #797979;
+       font-size: 11px;
+   }
+
+   .feed {
+       color: #333333;
+       font-size: 13px;
+   }
+
+   .home {
+       margin: auto;
+   }
+
+   .scroll-content {
+       padding: 16px;
+       vertical-align: middle;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .logo {
+       color: #fff;
+       display: block;
+       width: 120px;
+   }
+
+   .name {
+       font-size: 14px;
+   }
+
+   .navbar {
+      background-color: #333;
+
+      .navbar-nav {
+          flex: 1;
+          justify-content: space-around;
+      }
+   }
+
+}
